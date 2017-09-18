@@ -25,7 +25,7 @@ function go(e) {
             trigger.style.marginLeft = "78%";
             break;
         default:
-            number = 1;
+            number = 0;
             console.log(number);
             trigger.style.marginLeft = "0%";
             break;
