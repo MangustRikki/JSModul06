@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: lightblue;
+}
+
+.wrap {
+    width: 30%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.taskText {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: lightcyan;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 1px solid darkgreen;
+    box-shadow: 2px 2px 5px darkgreen;
+}
+
+.task {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background: lightgoldenrodyellow;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.task:hover,
+input[type="submit"]:hover {
+    background: lightcoral;
+}
+
+.home {
+    margin-bottom: 40px;
+}
+
+input {
+    height: 30px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background: lightgreen;
+}
+
+.result {
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+
+/* Стили к первому заданию */
+
+.block {
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px;
+    width: 100%;
+    height: 250px;
+    background: lightgreen;
+}
+
+
+/* Стили ко второму заданию */
+
+.doubleClick {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    background: url(../img/open-closed-folder-icons-png.png) 0 0 no-repeat;
+    background-size: cover;
+}
+
+
+/* Стили к третьему заданию */
+
+.someDiv {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: lightcoral;
+}
+
+.someDivMouseOver {
+    border-radius: 100%;
+    transition: 1s ease;
+}
+
+
+/* Стили к 4му заданию */
+
+.fon {
+    height: 250px;
+    width: 100%;
+    background: lightcoral;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__img {
+    height: 150px;
+}
+
+
+/* Стили к 5му заданию */
+
+.ball {
+    display: flex;
+    justify-content: center;
+}
+
+.ball__item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightcoral;
+    transition: 0.5s;
+}
+
+
+/* Стили к 6му заданию */
+
+.trigger {
+    width: 100%;
+    height: 120px;
+    background: #3D3768;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trigger__block {
+    width: 20%;
+    height: 100px;
+    background: lightcoral;
+    border-radius: 10px;
+    border: 3px solid #040706;
+    transition: ease 1.6s;
+}
