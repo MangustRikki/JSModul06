@@ -18,10 +18,8 @@ function setBg(block, path) {
 obj.gallery.addEventListener('click', go);
 
 function go(e) {
-    let realPath = e.target.src;
-    let relativePath;
+    let path = e.target.dataset.path;
     if (e.target.className == "gallery__img") {
-        relativePath = realPath.replace(/^(?:\/\/|[^\/]+)*\//, "");
-        setBg(obj.bg, relativePath);
+        setBg(obj.bg, path);
     }
 }

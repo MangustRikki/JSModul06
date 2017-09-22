@@ -6,9 +6,11 @@ let obj = {
 }
 
 function showSomeDiv(result) {
+    let tmp;
     for (let i = 0; i < 301; i++) {
-        result.innerHTML += "<div class = 'someDiv'></div>"
+        tmp.innerHTML += "<div class = 'someDiv'></div>";
     }
+    result = tmp;
 }
 
 // MODEL
